@@ -72,10 +72,10 @@ export default function App() {
   const [showMain, setShowMain] = useState(false);
 
   const PHOTOS = [
-    { id: 1, src: '/images/photo3.jpg', classes: 'absolute top-[8%] left-[4%] sm:left-[8%] w-[45%] sm:w-[32%]', rotate: -8 },
-    { id: 2, src: '/images/photo4.jpg', classes: 'absolute top-[14%] right-[3%] sm:right-[6%] w-[43%] sm:w-[30%]', rotate: 11 },
-    { id: 3, src: '/images/photo5.jpg', classes: 'absolute top-[52%] left-[3%] sm:left-[7%] w-[46%] sm:w-[34%]', rotate: -5 },
-    { id: 4, src: '/images/photo6.jpg', classes: 'absolute top-[58%] right-[4%] sm:right-[8%] w-[45%] sm:w-[33%]', rotate: 9 },
+    { id: 1, src: '/images/photo3.jpg', classes: 'absolute top-[28%] left-[4%] sm:left-[8%] w-[45%] sm:w-[32%]', rotate: -8 },
+    { id: 2, src: '/images/photo4.jpg', classes: 'absolute top-[18%] right-[3%] sm:right-[6%] w-[43%] sm:w-[30%]', rotate: 11 },
+    { id: 3, src: '/images/photo5.jpg', classes: 'absolute top-[54%] left-[3%] sm:left-[7%] w-[46%] sm:w-[34%]', rotate: -5 },
+    { id: 4, src: '/images/photo6.jpg', classes: 'absolute top-[48%] right-[4%] sm:right-[8%] w-[45%] sm:w-[33%]', rotate: 9 },
   ];
 
   const handleRestart = () => {
@@ -223,7 +223,7 @@ export default function App() {
           style={{ backgroundImage: "url('/images/flowers-right.png')", backgroundRepeat: 'repeat-y', backgroundSize: '100% auto', backgroundPosition: 'right top' }}
         ></div>
 
-        <div className="relative mx-auto w-full max-w-5xl h-[1400px] sm:h-[1800px] z-10 mt-10">
+        <div className="relative mx-auto mb-[-140px] w-full max-w-5xl h-[950px] sm:mb-[-120px] sm:h-[1300px] z-10 mt-10">
           
           <motion.h2
             initial={{ opacity: 0, x: -20 }}
